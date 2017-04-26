@@ -1,0 +1,46 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    <FontFamily x:Key="FontAwesome">pack://application:,,,/Skins/#iconfont</FontFamily>
+    <!--<FontFamily x:Key="BaseFontFamily">pack://application:,,,/Skins/#PingFang</FontFamily>-->
+    <FontFamily x:Key="BaseFontFamily">微软雅黑</FontFamily>
+    <system:Double x:Key="LabelFontSize">14</system:Double>
+    <system:Double x:Key="ContentFontSize">15</system:Double>
+    <system:Double x:Key="TitleBiggerFontSize">16</system:Double>
+
+    <SolidColorBrush x:Key="PagerForeground" Color="DarkGray" />
+    <SolidColorBrush x:Key="PagerMouseOverForeground" Color="#14A77D" />
+    <SolidColorBrush x:Key="VisualFocusColor" Color="#14A77D" />
+
+    <system:Double x:Key="DataGridHeaderFontSize">15</system:Double>
+    <system:Double x:Key="DataGridContentFontSize">14</system:Double>
+    <SolidColorBrush x:Key="DataGridHeaderForeground" Color="Black" />
+    <SolidColorBrush x:Key="DataGridHeaderBackground" Color="#B8E4D8" />
+    <SolidColorBrush x:Key="DataGridContentForeground" Color="#3a3c46" />
+    <SolidColorBrush x:Key="DataGridAlternatingRowBackground" Color="#FFFFFF" />
+    <SolidColorBrush x:Key="DataGridRowBackground" Color="#EFF8FF" />
+    <SolidColorBrush x:Key="DataGridRowSelectedBackground" Color="#85CDB8" />
+    <SolidColorBrush x:Key="DataGridRowMouseOverBackground" Color="#FFF1E3" />
+
+    <SolidColorBrush x:Key="LabelForground" Color="DarkGray" />
+    <SolidColorBrush x:Key="ContentForground" Color="#3a3c46" />
+    <SolidColorBrush x:Key="WaterFontForground" Color="#3a3c46" />
+
+    <SolidColorBrush x:Key="PageBackground" Color="#F1F1F1" />
+
+    <system:Double x:Key="TextBoxWidth">150</system:Double>
+    <system:Double x:Key="TextBoxHeight">30</system:Double>
+
+    <Style x:Key="FocusVisualStyle">
+        <Setter Property="Control.Template">
+            <Setter.Value>
+                <ControlTemplate>
+                    <Rectangle Margin="-2"
+                               Stroke="Red"
+                               StrokeDashArray="1 2"
+                               StrokeThickness="1" />
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

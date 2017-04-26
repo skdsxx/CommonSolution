@@ -13,7 +13,9 @@
 ************************************************************/
 #endregion
 
+using CommonLibrary.Dialogs;
 using System.ComponentModel;
+using System.Windows;
 using System.Windows.Input;
 
 namespace CommonLibrary.Dialogs
@@ -69,13 +71,13 @@ namespace CommonLibrary.Dialogs
         private void ButtonOk_OnClick(object sender, RoutedEventArgs e)
         {
             Close();
-            Result = DialogResult.True;
+            Result = Dialogs.DialogResult.True;
         }
 
         private void ButtonNo_OnClick(object sender, RoutedEventArgs e)
         {
             Close();
-            Result = DialogResult.False;
+            Result = Dialogs.DialogResult.False;
         }
 
         private void UIElement_OnMouseLeftButtonDown(object sender, MouseButtonEventArgs e)
