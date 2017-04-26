@@ -1,0 +1,33 @@
+﻿<Window x:Class="WpfTest.CommandWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="CommandWindow" Height="400" Width="600">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Width="180" Height="30"
+                Content="无参 测试Command"
+                VerticalAlignment="Center" 
+                Command="{Binding BtnTextCommand}"/>
+            <Button Width="180" Height="30"
+                    Margin="10 0 0 0"
+                    Content="带参 测试Command"
+                    VerticalAlignment="Center" 
+                    Command="{Binding BtnTextParaCommand}"
+                    CommandParameter="哈哈，可以穿花衣服啦！"/>
+        </StackPanel>
+
+        <TextBox Grid.Row="1" Width="400" Height="60"
+                 Text="{Binding ContentShow}"
+                 TextWrapping="Wrap"
+                 ScrollViewer.CanContentScroll="True" 
+                 VerticalScrollBarVisibility="Auto"/>
+
+    </Grid>
+</Window>

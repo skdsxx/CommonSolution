@@ -1,0 +1,4 @@
+C:\Users\贤\Desktop\CommonSolution\CommonLibrary\bin\Debug\CommonLibrary.dll
+C:\Users\贤\Desktop\CommonSolution\CommonLibrary\bin\Debug\CommonLibrary.pdb
+C:\Users\贤\Desktop\CommonSolution\CommonLibrary\obj\Debug\CommonLibrary.dll
+C:\Users\贤\Desktop\CommonSolution\CommonLibrary\obj\Debug\CommonLibrary.pdb

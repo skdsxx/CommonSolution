@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonLibrary", "CommonLibrary\CommonLibrary.csproj", "{ADB8440B-75EE-46DA-A5BC-65471B7D627A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfTest", "WpfTest\WpfTest.csproj", "{9E9BD892-F359-41BB-8743-FE60EB16D4EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADB8440B-75EE-46DA-A5BC-65471B7D627A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADB8440B-75EE-46DA-A5BC-65471B7D627A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADB8440B-75EE-46DA-A5BC-65471B7D627A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADB8440B-75EE-46DA-A5BC-65471B7D627A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E9BD892-F359-41BB-8743-FE60EB16D4EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E9BD892-F359-41BB-8743-FE60EB16D4EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E9BD892-F359-41BB-8743-FE60EB16D4EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E9BD892-F359-41BB-8743-FE60EB16D4EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
