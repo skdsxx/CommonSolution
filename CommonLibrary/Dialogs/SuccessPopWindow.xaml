@@ -1,0 +1,32 @@
+﻿<Window x:Class="CommonLibrary.Dialogs.SuccessPopWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="AddSuccessPop"  Height="180" Width="200"
+        WindowStyle="None" Topmost="True"
+        AllowsTransparency="True"
+        Background="Transparent"
+        WindowStartupLocation="CenterScreen">
+    <Border CornerRadius="5" Background="White" BorderBrush="DarkGray" BorderThickness="1">
+        <StackPanel>
+            <Path Margin="0,25,0,0" Fill="CadetBlue"
+                  Height="60"  Width="60" Stretch="Fill"
+                  HorizontalAlignment="Center" 
+                  VerticalAlignment="Center"
+                  Data="M512 748q-182 0 -315 -133t-133 -315t133 -315t315 -133t315 133t133 315t-133 315t-315 133zM723 434l-269 -313l-153 134q-10 5 -10 16t10 16q5 10 13.5 10t18.5 -10l115 -102l237 281q9 10 15.5 10t16.5 -10q29 -9 6 -32z" RenderTransformOrigin="0.5,0.5">
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="-1"/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+
+            <TextBlock Margin="0 20 0 0" Text="{Binding TxtMessage}" 
+                      HorizontalAlignment="Center" 
+                      VerticalAlignment="Center"
+                      FontSize="16"/>
+        </StackPanel>
+    </Border>
+</Window>

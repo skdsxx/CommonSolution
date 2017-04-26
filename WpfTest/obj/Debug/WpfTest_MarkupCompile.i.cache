@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\贤\Desktop\CommonSolution\WpfTest\App.xaml
-3-746187380
+5-1882000622
 
-12-1810407498
+14170918354
 14950652371
-CommandWindow.xaml;MainWindow.xaml;SecurityWindow.xaml;
+CommandWindow.xaml;FailurePopWindow.xaml;MainWindow.xaml;SecurityWindow.xaml;SuccessPopWindow.xaml;
 
 False
 

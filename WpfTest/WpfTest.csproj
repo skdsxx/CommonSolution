@@ -58,11 +58,21 @@
     <Compile Include="CommandWindow.xaml.cs">
       <DependentUpon>CommandWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="FailurePopWindow.xaml.cs">
+      <DependentUpon>FailurePopWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Annotations.cs" />
     <Compile Include="SecurityWindow.xaml.cs">
       <DependentUpon>SecurityWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SuccessPopWindow.xaml.cs">
+      <DependentUpon>SuccessPopWindow.xaml</DependentUpon>
+    </Compile>
     <Page Include="CommandWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FailurePopWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -79,6 +89,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="SecurityWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SuccessPopWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
