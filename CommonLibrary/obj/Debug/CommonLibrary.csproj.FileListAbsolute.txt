@@ -19,3 +19,4 @@ C:\Users\贤\Desktop\CommonSolution\CommonLibrary\obj\Debug\Dialogs\FailurePopWi
 C:\Users\贤\Desktop\CommonSolution\CommonLibrary\obj\Debug\Dialogs\SuccessPopWindow.g.cs
 C:\Users\贤\Desktop\CommonSolution\CommonLibrary\obj\Debug\CommonLibrary_MarkupCompile.cache
 C:\Users\贤\Desktop\CommonSolution\CommonLibrary\obj\Debug\CommonLibrary.g.resources
+C:\Users\贤\Desktop\CommonSolution\CommonLibrary\obj\Debug\CommonLibrary.csprojResolveAssemblyReference.cache
