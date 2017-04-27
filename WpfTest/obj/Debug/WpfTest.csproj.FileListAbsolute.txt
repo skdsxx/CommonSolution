@@ -17,8 +17,3 @@ C:\Users\贤\Desktop\CommonSolution\WpfTest\obj\Debug\WpfTest.exe
 C:\Users\贤\Desktop\CommonSolution\WpfTest\obj\Debug\WpfTest.pdb
 C:\Users\贤\Desktop\CommonSolution\WpfTest\obj\Debug\CommandWindow.g.cs
 C:\Users\贤\Desktop\CommonSolution\WpfTest\obj\Debug\CommandWindow.baml
-C:\Users\贤\Desktop\CommonSolution\WpfTest\obj\Debug\FailurePopWindow.baml
-C:\Users\贤\Desktop\CommonSolution\WpfTest\obj\Debug\FailurePopWindow.g.cs
-C:\Users\贤\Desktop\CommonSolution\WpfTest\obj\Debug\SuccessPopWindow.g.cs
-C:\Users\贤\Desktop\CommonSolution\WpfTest\obj\Debug\WpfTest_MarkupCompile.lref
-C:\Users\贤\Desktop\CommonSolution\WpfTest\obj\Debug\SuccessPopWindow.baml

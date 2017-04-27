@@ -1,4 +1,5 @@
 ﻿using System.Windows;
+using CommonLibrary.Dialogs;
 
 namespace WpfTest
 {
@@ -21,6 +22,21 @@ namespace WpfTest
         {
             
             new CommandWindow().Show();
+        }
+
+        private void ButtonMessageOk_OnClick(object sender, RoutedEventArgs e)
+        {
+            MessageDialog.Alert(TxtMessageOk.Text);
+        }
+
+        private void ButtonMessagePop_OnClick(object sender, RoutedEventArgs e)
+        {
+            MessageDialog.AlertTip(TxtMessagePop.Text);
+        }
+
+        private void ButtonMessageOkCancel_OnClick(object sender, RoutedEventArgs e)
+        {
+            MessageDialog.Alert(TxtMessageOkCancel.Text,DialogType.YesOrNo);
         }
     }
 }
