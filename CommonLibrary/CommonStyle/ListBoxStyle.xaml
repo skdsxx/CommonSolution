@@ -1,0 +1,139 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    
+    <!--<Style x:Key="TeamNameListStyle" TargetType="ListBox">
+        <Setter Property="BorderThickness" Value="0"/>
+        <Setter Property="Margin" Value="0 10 0 0"/>
+        <Setter Property="ItemContainerStyle">
+            <Setter.Value>
+                <Style TargetType="ListBoxItem">
+                    -->
+    <!--设置控件模板--><!--
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="ListBoxItem">
+                                <Border>
+                                    <ContentPresenter VerticalAlignment="{TemplateBinding VerticalContentAlignment}" 
+                                                          HorizontalAlignment="{TemplateBinding HorizontalAlignment}"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ListBox">
+                    <ScrollViewer HorizontalScrollBarVisibility="Auto"
+                                      VerticalScrollBarVisibility="Disabled">
+                        <WrapPanel Orientation="Horizontal" HorizontalAlignment="Center"
+                                       IsItemsHost="True"
+                                       ScrollViewer.CanContentScroll="True"/>
+                    </ScrollViewer>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="ItemTemplate">
+            <Setter.Value>
+                <DataTemplate DataType="schedual:SchedualTeamModel">
+                    <RadioButton Width="140" Height="40"
+                                     GroupName="TeamGroup" 
+                                     IsChecked="{Binding IsArrange}"
+                                     Command="{Binding SelectedTeamCommand,
+                                           RelativeSource={RelativeSource Mode=FindAncestor, 
+                                           AncestorType=Window}}"
+                                     CommandParameter="{Binding TeamId}">
+                        <RadioButton.Template>
+                            <ControlTemplate TargetType="{x:Type RadioButton}">
+                                <Border x:Name="border" CornerRadius="{Binding Radius}"
+                                            BorderThickness="1" 
+                                            BorderBrush="#e0e0e0"
+                                            Background="White">
+                                    <StackPanel Orientation="Horizontal"
+                                                    HorizontalAlignment="Center">
+                                        <TextBlock x:Name="tbName" Text="{Binding TeamName}" 
+                                                   VerticalAlignment="Center"
+                                                   FontSize="{StaticResource ContentFontSizeMedium}"
+                                                   Foreground="#33353a"/>
+                                        <TextBlock x:Name="tbIcon" Text="(组)"
+                                                   VerticalAlignment="Center"
+                                                   FontSize="{StaticResource ContentFontSizeMedium}"
+                                                   Foreground="#33353a"/>
+                                    </StackPanel>
+                                </Border>
+                                -->
+    <!--触发器：设置选中状态符号--><!--
+                                <ControlTemplate.Triggers>
+                                    <DataTrigger  Binding="{Binding IsArrange}" Value="true">
+                                        <Setter TargetName="tbName" Property="Foreground" Value="White"/>
+                                        <Setter TargetName="tbIcon" Property="Foreground" Value="White"/>
+                                        <Setter TargetName="border" Property="Background" Value="#32b16c"/>
+                                    </DataTrigger>
+                                    <DataTrigger  Binding="{Binding Radius}" Value="5 0 0 5">
+                                        <Setter TargetName="border" Property="BorderThickness" Value="1 1 0 1"/>
+                                    </DataTrigger>
+                                    <DataTrigger  Binding="{Binding Radius}" Value="0 0 0 0">
+                                        <Setter TargetName="border" Property="BorderThickness" Value="1 1 1 1"/>
+                                    </DataTrigger>
+                                    <DataTrigger  Binding="{Binding Radius}" Value="0 5 5 0">
+                                        <Setter TargetName="border" Property="BorderThickness" Value="0 1 1 1"/>
+                                    </DataTrigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </RadioButton.Template>
+                    </RadioButton>
+                </DataTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="CardListItemStyle" TargetType="ListBoxItem">
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="Margin" Value="0 0 14 18"/>
+        --><!--设置控件模板--><!--
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ListBoxItem">
+                    <Border Background="{TemplateBinding Background}">
+                        <ContentPresenter VerticalAlignment="{TemplateBinding VerticalContentAlignment}" 
+                                          TextBlock.Foreground="{TemplateBinding Foreground}"/>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="TeamStaffCardListStyle" TargetType="ListBox">
+        <Setter Property="Margin" Value="20 0 0 0"/>
+        <Setter Property="ItemContainerStyle" Value="{StaticResource CardListItemStyle}"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ListBox">
+                    <ScrollViewer HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
+                        <WrapPanel Orientation="Horizontal" 
+                                       IsItemsHost="True"
+                                       ScrollViewer.CanContentScroll="True"/>
+                    </ScrollViewer>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="ItemTemplate">
+            <Setter.Value>
+                <DataTemplate DataType="departmentTeam:TeamStaffModel">
+                    <Grid Width="140" Height="40" VerticalAlignment="Top" >
+                        <Rectangle Fill="#FFFFFFFF" Stroke="#32b16c" RadiusY="20" RadiusX="20"/>
+                        <Image Margin="15 0 0 0" Width="17" HorizontalAlignment="Left"
+                                   VerticalAlignment="Center" 
+                                   Source="{Binding Sex}"/>
+                        <TextBlock x:Name="textBlock" Margin="40 0 0 0"
+                                       VerticalAlignment="Center"
+                                       FontSize="{StaticResource ContentFontSizeMedium}"
+                                       Foreground="#33353a"
+                                       Text="{Binding Name}"/>
+                    </Grid>
+                </DataTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>-->
+</ResourceDictionary>

@@ -17,3 +17,6 @@ C:\Users\贤\Desktop\CommonSolution\WpfTest\obj\Debug\WpfTest.exe
 C:\Users\贤\Desktop\CommonSolution\WpfTest\obj\Debug\WpfTest.pdb
 C:\Users\贤\Desktop\CommonSolution\WpfTest\obj\Debug\CommandWindow.g.cs
 C:\Users\贤\Desktop\CommonSolution\WpfTest\obj\Debug\CommandWindow.baml
+E:\工作学习\CommonSolution\WpfTest\bin\Debug\WpfTest.exe.config
+E:\工作学习\CommonSolution\WpfTest\obj\Debug\WpfTest.exe
+E:\工作学习\CommonSolution\WpfTest\obj\Debug\WpfTest.pdb
