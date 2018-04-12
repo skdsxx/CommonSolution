@@ -43,3 +43,7 @@ E:\工作学习\CommonSolution\CommonLibrary\obj\Debug\CommonLibrary_MarkupCompi
 E:\工作学习\CommonSolution\CommonLibrary\obj\Debug\CommonLibrary.g.resources
 E:\工作学习\CommonSolution\CommonLibrary\obj\Debug\CommonLibrary.dll
 E:\工作学习\CommonSolution\CommonLibrary\obj\Debug\CommonLibrary.pdb
+C:\Users\贤\Desktop\CommonSolution\CommonLibrary\obj\Debug\CommonLibrary.csprojResolveAssemblyReference.cache
+C:\Users\贤\Desktop\CommonSolution\CommonLibrary\obj\Debug\CommonStyle\ListBoxStyle.baml
+C:\Users\贤\Desktop\CommonSolution\CommonLibrary\obj\Debug\CommonStyle\TreeViewStyle.baml
+C:\Users\贤\Desktop\CommonSolution\CommonLibrary\obj\Debug\CommonLibrary.csproj.CoreCompileInputs.cache
