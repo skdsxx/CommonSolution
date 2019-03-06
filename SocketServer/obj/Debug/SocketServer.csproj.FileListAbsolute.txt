@@ -1,0 +1,14 @@
+D:\GitHubProjects\CommonSolution\SocketServer\bin\Debug\SocketServer.exe.config
+D:\GitHubProjects\CommonSolution\SocketServer\bin\Debug\SocketServer.exe
+D:\GitHubProjects\CommonSolution\SocketServer\bin\Debug\SocketServer.pdb
+D:\GitHubProjects\CommonSolution\SocketServer\obj\Debug\MainWindow.baml
+D:\GitHubProjects\CommonSolution\SocketServer\obj\Debug\MainWindow.g.cs
+D:\GitHubProjects\CommonSolution\SocketServer\obj\Debug\App.g.cs
+D:\GitHubProjects\CommonSolution\SocketServer\obj\Debug\SocketServer_MarkupCompile.cache
+D:\GitHubProjects\CommonSolution\SocketServer\obj\Debug\SocketServer.g.resources
+D:\GitHubProjects\CommonSolution\SocketServer\obj\Debug\SocketServer.Properties.Resources.resources
+D:\GitHubProjects\CommonSolution\SocketServer\obj\Debug\SocketServer.csproj.GenerateResource.cache
+D:\GitHubProjects\CommonSolution\SocketServer\obj\Debug\SocketServer.csproj.CoreCompileInputs.cache
+D:\GitHubProjects\CommonSolution\SocketServer\obj\Debug\SocketServer.exe
+D:\GitHubProjects\CommonSolution\SocketServer\obj\Debug\SocketServer.pdb
+D:\GitHubProjects\CommonSolution\SocketServer\obj\Debug\SocketServer.csprojAssemblyReference.cache

@@ -41,3 +41,11 @@ D:\GitHubProjects\CommonSolution\WpfTest\obj\Debug\WpfTest.csproj.CoreCompileInp
 D:\GitHubProjects\CommonSolution\WpfTest\obj\Debug\WpfTest.csproj.CopyComplete
 D:\GitHubProjects\CommonSolution\WpfTest\obj\Debug\WpfTest.exe
 D:\GitHubProjects\CommonSolution\WpfTest\obj\Debug\WpfTest.pdb
+D:\GitHubProjects\CommonSolution\WpfTest\bin\Debug\AutoMapper.dll
+D:\GitHubProjects\CommonSolution\WpfTest\bin\Debug\Newtonsoft.Json.dll
+D:\GitHubProjects\CommonSolution\WpfTest\bin\Debug\System.ValueTuple.dll
+D:\GitHubProjects\CommonSolution\WpfTest\bin\Debug\AutoMapper.pdb
+D:\GitHubProjects\CommonSolution\WpfTest\bin\Debug\AutoMapper.xml
+D:\GitHubProjects\CommonSolution\WpfTest\bin\Debug\Newtonsoft.Json.pdb
+D:\GitHubProjects\CommonSolution\WpfTest\bin\Debug\Newtonsoft.Json.xml
+D:\GitHubProjects\CommonSolution\WpfTest\bin\Debug\System.ValueTuple.xml

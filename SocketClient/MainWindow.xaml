@@ -1,0 +1,50 @@
+﻿<Window x:Class="SocketClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SocketClient"
+        mc:Ignorable="d"
+        Title="SocketClient" Height="450" Width="800">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="60"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal">
+            <TextBlock Text="服务Ip："  VerticalAlignment="Center"/>
+            <TextBox x:Name="TxtServerIp" 
+                     Text="172.16.1.62" 
+                     Width="200" Height="26"/>
+            <TextBlock Text="服务Port："  VerticalAlignment="Center"/>
+            <TextBox x:Name="TxtServerPort" 
+                     Text="5432" 
+                     Width="200" Height="26"/>
+            <Button x:Name="BtnConnect" Content="连接服务端" 
+                    Width="120" Height="28"
+                    Click="BtnConnect_Click"/>
+
+        </StackPanel>
+        <TextBox x:Name="TxtMsg" Grid.Row="1"/>
+        <StackPanel Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal">
+            <TextBox x:Name="TxtSendMsg" 
+                     Text="你好，服务端" 
+                     Width="200" Height="26" Margin="0 0 20 0"/>
+            <Button x:Name="BtnSendMsg" Content="发送消息" 
+                    Width="120" Height="28"
+                    Click="BtnSendMsg_Click"/>
+        </StackPanel>
+        <StackPanel Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal">
+            <TextBox x:Name="TxtFileName"  
+                     Width="200" Height="26" Margin="0 0 20 0"/>
+            <Button x:Name="BtnOpen" Content="选择文件" 
+                    Width="120" Height="28"
+                    Click="BtnOpen_Click"/>
+            <Button x:Name="BtnSendFile" Content="发送文件" Margin="20 0 0 0"
+                    Width="120" Height="28"
+                    Click="BtnSendFile_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

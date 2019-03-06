@@ -1,0 +1,7 @@
+D:\GitHubProjects\CommonSolution\TcpServer\bin\Debug\TcpServer.exe.config
+D:\GitHubProjects\CommonSolution\TcpServer\bin\Debug\TcpServer.exe
+D:\GitHubProjects\CommonSolution\TcpServer\bin\Debug\TcpServer.pdb
+D:\GitHubProjects\CommonSolution\TcpServer\obj\Debug\TcpServer.csprojAssemblyReference.cache
+D:\GitHubProjects\CommonSolution\TcpServer\obj\Debug\TcpServer.csproj.CoreCompileInputs.cache
+D:\GitHubProjects\CommonSolution\TcpServer\obj\Debug\TcpServer.exe
+D:\GitHubProjects\CommonSolution\TcpServer\obj\Debug\TcpServer.pdb

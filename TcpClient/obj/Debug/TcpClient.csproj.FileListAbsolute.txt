@@ -1,0 +1,6 @@
+D:\GitHubProjects\CommonSolution\TcpClient\bin\Debug\TcpClient.exe.config
+D:\GitHubProjects\CommonSolution\TcpClient\bin\Debug\TcpClient.exe
+D:\GitHubProjects\CommonSolution\TcpClient\bin\Debug\TcpClient.pdb
+D:\GitHubProjects\CommonSolution\TcpClient\obj\Debug\TcpClient.csproj.CoreCompileInputs.cache
+D:\GitHubProjects\CommonSolution\TcpClient\obj\Debug\TcpClient.exe
+D:\GitHubProjects\CommonSolution\TcpClient\obj\Debug\TcpClient.pdb
